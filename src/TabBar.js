@@ -368,7 +368,7 @@ export default class TabBar extends PureComponent<DefaultProps, Props, State> {
             right: 0, 
             bottom: 0, 
             height: this.props.indicatorStyle ? this.props.indicatorStyle.height : 3, 
-            backgroundColor: this.props.indicatorContainerColor || '#000000A' 
+            backgroundColor: this.props.indicatorContainerColor || 'transparent' 
             }} 
           />
           {this._renderIndicator({
